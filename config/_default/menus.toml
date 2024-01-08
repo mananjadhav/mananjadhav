@@ -21,7 +21,14 @@
     name = "Tags"
     url = "/tags"
     weight = 4
-    
+
+[[main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 5
+
+
 # Social Media Configuration
 
 [[social]]
@@ -35,3 +42,9 @@
     name = "GitHub"
     url = "https://github.com/mananjadhav"
     weight = 3
+
+[[social]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 4

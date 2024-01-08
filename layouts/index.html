@@ -1,0 +1,30 @@
+{{ define "main" }} 
+
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }} 
+{{ $paginator := .Paginate $pages }}
+
+
+<div class="py-2 flex flex-col gap-1">
+  <p>Hello! I am Manan. I am experienced engineer with a knack of <i>solving problems with technology!</i></p>
+  <p>I <b>help startups</b> build products, teams and technology landscape. Reach out to <a href="/contact">connect</a></p>
+</div>
+
+<hr/>
+
+<div class="py-2 flex flex-col gap-1">
+  <h3 class="title-small">{{ i18n "latestPosts" }}</h3>
+</div>
+
+
+
+<section class="pb-10 flex flex-col gap-10">
+  {{ range $index, $pages := $paginator.Pages }} 
+    {{ partial "list/default" . }} 
+  {{ end }}
+</section>
+
+{{ if gt $paginator.TotalPages 1 }}
+  {{ partial "list/pagination" . }} 
+{{ end }}
+
+{{ end }}
