@@ -2,10 +2,10 @@
 isSinglePage = true
 
 # Meta Config
-description = "Hello"
+description = "Howdy, I am Manan. I am experienced technologist with a knack of solving problems! I help startups build products, teams and technology landscape."
 
 # Header Configuration
-avatar = "img/profile-picture.jpg"
+avatar = "img/mj-display-picture.jpg"
 
 # disqus is a comment system. see https://disqus.com
 disqusShortname = ""
