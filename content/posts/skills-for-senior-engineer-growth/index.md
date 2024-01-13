@@ -1,7 +1,7 @@
 ---
 title: "Navigating the Growth Path: Critical Skills for Senior Software Engineers"
 draft: false
-date: 2024-01-14T03:15:45.000Z
+date: 2024-01-13T23:00:00.000Z
 description: "Critical skills for growth of senior software engineers"
 categories:
   - Tech
