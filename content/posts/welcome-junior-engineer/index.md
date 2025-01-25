@@ -2,7 +2,7 @@
 title: "Welcome, Junior Engineer: Tips to Succeed in Your New Role"
 draft: false
 date: 2025-01-26T01:14:19+05:30
-description: "How to succeed as a new junior engineer"
+description: "A guide for new junior engineers on how to thrive in a new organization, embrace growth, and make a meaningful impact early in their careers."
 categories:
   - Tech
   - Career Growth
