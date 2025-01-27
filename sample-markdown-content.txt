@@ -172,11 +172,6 @@ $$
 
 Three or more... Hyphens `---`, Asterisks `***`, or Underscores `___`.
 
----
-
----
-
----
 
 # Miscellaneous
 
